@@ -1,402 +1,352 @@
 [
     {
-        "movie_title": "movie_title",
-        "headline": "Do You Know These Authors Who Appeared in the Filmed Versions of Their Books?",
-        "summary": "Some writers have followed their words onto the screen. Try this short quiz to see if you recall five of those cameo scenes.",
-        "section": "Books",
-        "byline": "By J. D. Biersdorfer",
-        "date": "2025-12-01T15:30:03Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Drive Back",
-        "summary": "John McClung makes his New York Times Crossword debut.",
-        "section": "Gameplay",
-        "byline": "By Sam Corbin",
-        "date": "2025-11-26T03:00:04Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Who Gets a Presidential Pardon?",
-        "summary": "We examine President Trump\u2019s approach to using his pardon power.",
-        "section": "Briefing",
-        "byline": "By Sam Sifton",
-        "date": "2025-12-02T12:13:22Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "\u2018Hamnet\u2019 Review: The Rest Is Silence",
-        "summary": "Jessie Buckley and Paul Mescal star in a heartbreaking adaptation of the best-selling novel.",
+        "headline": "A New Thriller Is Coy About Its Director. (It\u2019s Mel Gibson.)",
+        "summary": "For \u201cFlight Risk,\u201d his first outing as a director in nearly a decade, the Oscar winner isn\u2019t quite taking center stage.",
         "section": "Movies",
-        "byline": "By Alissa Wilkinson",
-        "date": "2025-11-26T10:01:45Z"
+        "byline": "By Marc Tracy",
+        "date": "2025-01-22T16:52:43Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "\u2018The Secret Agent\u2019 Review: Carnival in the Face of Carnage",
-        "summary": "Wagner Moura takes cover in this knockout from the filmmaker Kleber Mendon\u00e7a Filho that is largely set in 1977 during Brazil\u2019s miliary dictatorship.",
+        "headline": "Prince\u2019s \u2018Purple Rain\u2019 Takes the Stage in Minneapolis",
+        "summary": "There was a flourish of purple at the State Theater for the debut of a new musical adaptation of the performer\u2019s 1984 movie in his hometown in Minnesota.",
+        "section": "Theater",
+        "byline": "By Jeff Ernst",
+        "date": "2025-10-20T09:01:32Z"
+    },
+    {
+        "headline": "The Great Gritty New York Movie You\u2019ve Never Seen",
+        "summary": "The crime thriller \u201cNight of the Juggler\u201d has been restored for a new theatrical release. It captures 1970s New York history and includes great chase scenes along the way.",
+        "section": "Movies",
+        "byline": "By Jason Bailey",
+        "date": "2025-07-30T09:01:53Z"
+    },
+    {
+        "headline": "\u2018Star Trek: Section 31\u2019 Review: Set the Phasers to Shun",
+        "summary": "This made-for-streaming Star Trek adventure starring Michelle Yeoh is an exhausting gallop of nonstop chatter and nonhuman abilities.",
+        "section": "Movies",
+        "byline": "By Jeannette Catsoulis",
+        "date": "2025-01-23T10:00:49Z"
+    },
+    {
+        "headline": "When Watching These Films at Cannes, Feel Free to Put Your Feet in the Sand",
+        "summary": "Cin\u00e9ma de la Plage is the Cannes Film Festival\u2019s free program of nightly film screenings on the beach and under the stars.",
+        "section": "Movies",
+        "byline": "By A.J. Goldmann",
+        "date": "2025-05-12T15:29:17Z"
+    },
+    {
+        "headline": "\u2018When Fall Is Coming\u2019 Review: Cooking Up a Mystery",
+        "summary": "With her kind eyes and guileless smile, H\u00e9l\u00e8ne Vincent plays a sweet old French lady. But looks can be deceiving in this Fran\u00e7ois Ozon film.",
         "section": "Movies",
         "byline": "By Manohla Dargis",
-        "date": "2025-11-26T15:20:24Z"
+        "date": "2025-04-03T16:40:49Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Which Notable Book Should I Read First?",
-        "summary": "We\u2019ve broken down our annual list by theme.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-11-25T03:07:27Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "We Had Never Touched. Then Came Our Wedding Night.",
-        "summary": "An ultra-Orthodox Jewish filmmaker asks members of her community about the silent anxieties surrounding intimacy on their wedding nights.",
-        "section": "Opinion",
-        "byline": "By Rachel Elitzur",
-        "date": "2025-12-02T10:05:05Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "\u2018Zootopia 2\u2019 Goes Wild at the Worldwide Box Office",
-        "summary": "The Disney sequel took in $156 million in North America over its first five days. Strong turnout in China pushed the film\u2019s global opening total to $556 million.",
-        "section": "Business",
-        "byline": "By Brooks Barnes",
-        "date": "2025-11-30T16:41:46Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "What\u2019s on Your Best-Of List for 2025? We Want to Know.",
-        "summary": "Best change to your evening routine? Best popcorn seasoning? Best overheard conversation? Tell us your super-subjective, idiosyncratic favorites from the past year.",
-        "section": "Briefing",
-        "byline": "By Melissa Kirsch",
-        "date": "2025-11-29T10:01:41Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "An Anti-Polarization Pope",
-        "summary": "What Pope Leo\u2019s first international trip tells us about the leader of the Catholic Church.",
-        "section": "World",
-        "byline": "By Katrin Bennhold",
-        "date": "2025-12-01T21:01:22Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "These Are the Elements That Define Us",
-        "summary": "A series of short films about how the elements of the periodic table shape our lives.",
-        "section": "Opinion",
-        "byline": "By Mart\u00edn Benchimol, Todd Chandler, Zhao Liang and Terra Long",
-        "date": "2025-11-25T18:10:01Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "\u2018Hamnet\u2019 Review: The Rest Is Silence",
-        "summary": "Jessie Buckley and Paul Mescal star in a heartbreaking adaptation of the best-selling novel.",
+        "headline": "In Death, Poet Andrea Gibson Gets a Film That Celebrates Life",
+        "summary": "\u201cCome See Me in the Good Light\u201d follows the writer and their wife as they experienced the pain of cancer and also the joy of living.",
         "section": "Movies",
-        "byline": "By Alissa Wilkinson",
-        "date": "2025-11-26T10:01:45Z"
+        "byline": "By Nicole Sperling",
+        "date": "2025-11-14T10:01:52Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "A.I.\u2019s Anti-A.I. Marketing Strategy",
-        "summary": "Artificial intelligence is unpopular and uncool \u2014\u00a0so A.I. companies are making ads that don\u2019t even bother to show their own products. Will it pay off?",
-        "section": "Opinion",
-        "byline": "By Cody Delistraty",
-        "date": "2025-11-26T10:01:51Z"
+        "headline": "\u2018Warfare\u2019 Review: A Combat Movie That Refuses to Entertain",
+        "summary": "In Alex Garland and Ray Mendoza\u2019s film about an American platoon in Iraq, there is no admirably staged bloodshed or witty repartee. That\u2019s the point.",
+        "section": "Movies",
+        "byline": "By Manohla Dargis",
+        "date": "2025-04-10T09:01:54Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Book: Historical Fiction",
-        "summary": "Whether you're looking for a classic or the latest and greatest, start here.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-11-13T15:35:01Z"
+        "headline": "Nine Inch Nails Are Filling the Hole in Their Souls With Film Music",
+        "summary": "Trent Reznor and Atticus Ross\u2019s soundtrack for \u201cTron: Ares\u201d is their first under their acclaimed band\u2019s name. These days, the project \u201cfeels vital and exciting again.\u201d",
+        "section": "Arts",
+        "byline": "By Lindsay Zoladz",
+        "date": "2025-11-01T09:00:26Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Mamdani, His Mother and a Movie of Prescient Grace",
-        "summary": "The mayor-elect ran a hopeful campaign amid ugly insinuations about 9/11. When I recall where I was on that day, I have a very different association.",
-        "section": "Opinion",
-        "byline": "By Lisa Schwarzbaum",
-        "date": "2025-11-28T10:00:21Z"
+        "headline": "\u2018Parthenope\u2019 Review: Goddess Worship",
+        "summary": "Directed by Paolo Sorrentino, this decadent drama about a beautiful young woman is a one-sided meditation on art, desire and spirituality.",
+        "section": "Movies",
+        "byline": "By Beatrice Loayza",
+        "date": "2025-02-06T10:01:32Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Jodie Foster Takes the Mel Brooks Questionnaire",
-        "summary": "The comedy legend devised a personality test for us. Our latest respondent: the star of the French-language mystery film \u201cA Private Life,\u201d which premieres in France this week and in the US in January.",
-        "section": "T Magazine",
-        "byline": "",
-        "date": "2025-11-24T17:30:22Z"
+        "headline": "\u2018Mr. Scorsese\u2019 Review: A Captivating and Charismatic Profile",
+        "summary": "Rebecca Miller\u2019s five-part documentary series balances her esteem for the director with a clear eye toward his struggles.",
+        "section": "Movies",
+        "byline": "By Natalia Winkelman",
+        "date": "2025-10-16T11:27:54Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Negotiating Peace in Ukraine",
-        "summary": "We explain the Trump administration\u2019s latest push to end the war.",
-        "section": "Briefing",
-        "byline": "By Sam Sifton",
-        "date": "2025-11-24T12:06:50Z"
+        "headline": "\u2018Star Trek: Section 31\u2019 Review: Set the Phasers to Shun",
+        "summary": "This made-for-streaming Star Trek adventure starring Michelle Yeoh is an exhausting gallop of nonstop chatter and nonhuman abilities.",
+        "section": "Movies",
+        "byline": "By Jeannette Catsoulis",
+        "date": "2025-01-23T10:00:49Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "6 New Movies Our Critics Are Talking About This Week",
+        "headline": "\u2018Rule Breakers\u2019 Review: Afghanistan\u2019s First Robotics Team",
+        "summary": "Based on a true story, this wholesome movie centers on four girls who make it to a worldwide competition in Washington, despite the odds.",
+        "section": "Movies",
+        "byline": "By Sheri Linden",
+        "date": "2025-03-06T12:00:10Z"
+    },
+    {
+        "headline": "10 New Movies Our Critics Are Talking About This Week",
         "summary": "Whether you\u2019re a casual moviegoer or an avid buff, our reviewers think these films are worth knowing about.",
         "section": "Movies",
         "byline": "By The New York Times",
-        "date": "2025-11-21T10:01:29Z"
+        "date": "2024-12-13T10:04:04Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Investigating a Recycling Disaster",
-        "summary": "We went to Nigeria, where recycling plants are extracting lead for use in American and European car batteries \u2014 at a terrible human cost.",
-        "section": "World",
-        "byline": "By Katrin Bennhold",
-        "date": "2025-11-18T21:06:48Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Five International Movies to Stream Now",
-        "summary": "In this month\u2019s picks, parents and children in India, Germany, Korea, Italy and Sudan grapple with the joys and perils of familial bonds.",
+        "headline": "What to Know About \u201828 Years Later\u2019",
+        "summary": "We catch you up on the \u201c28\u201d franchise, including the new movie, with commentary from the films\u2019 screenwriter Alex Garland.",
         "section": "Movies",
-        "byline": "By Devika Girish",
-        "date": "2025-11-14T16:10:58Z"
+        "byline": "By Elisabeth Vincentelli",
+        "date": "2025-06-20T09:01:03Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "The World Craves A.I. Chips",
-        "summary": "Also, a corruption scandal is roiling Ukraine. Here\u2019s the latest at the end of Wednesday.",
-        "section": "Briefing",
-        "byline": "By Matthew Cullen",
-        "date": "2025-11-19T22:43:09Z"
+        "headline": "Nine Inch Nails Are Filling the Hole in Their Souls With Film Music",
+        "summary": "Trent Reznor and Atticus Ross\u2019s soundtrack for \u201cTron: Ares\u201d is their first under their acclaimed band\u2019s name. These days, the project \u201cfeels vital and exciting again.\u201d",
+        "section": "Arts",
+        "byline": "By Lindsay Zoladz",
+        "date": "2025-11-01T09:00:26Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "A BravoCon Recap, Plus 6 Things to Watch on TV This Week",
-        "summary": "Catch up on everything that happened in Vegas, and get ready for the CMAs.",
+        "headline": "\u2018The Girlfriend\u2019 and 5 More Things to Watch on TV This Week",
+        "summary": "The thriller series premieres on Prime Video, and the 77th annual Emmy Awards air on Sunday.",
         "section": "Arts",
         "byline": "By Shivani Gonzalez",
-        "date": "2025-11-17T06:00:04Z"
+        "date": "2025-09-08T05:00:05Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Sunday Special: A Sea of Streaming Docs",
-        "summary": "True Crime, celebrity docs, Ken Burns: There\u2019s no shortage of nonfiction films to watch now.",
-        "section": "Podcasts",
-        "byline": "By Gilbert Cruz, James Poniewozik, Alissa Wilkinson, Alex Barron, Luke Vander Ploeg, Tina Antolini, Kate LoPresti, Wendy Dorr, Sophia Lanman, Dan Powell, Marion Lozano, Elisheba Ittoop and Diane Wong",
-        "date": "2025-11-16T11:00:18Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The U.N. Security Council Backs Trump\u2019s Gaza Plan",
-        "summary": "Also, it\u2019s a big week for the art market. Here\u2019s the latest at the end of Monday.",
-        "section": "Briefing",
-        "byline": "By Matthew Cullen",
-        "date": "2025-11-17T23:09:10Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The Privacy Battle in Our Brains",
-        "summary": "My colleague talks about technology that can actually read our minds \u2014 and maybe even change them.",
-        "section": "World",
-        "byline": "By Katrin Bennhold",
-        "date": "2025-11-20T21:52:51Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Maya Rudolph Takes the Mel Brooks Questionnaire",
-        "summary": "The comedy legend devised a personality test for us. This time: the star of \u201cLoot,\u201d the third season of which premieres this month.",
-        "section": "T Magazine",
-        "byline": "",
-        "date": "2025-10-07T16:00:26Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The Most Inspiring Onscreen Summer Houses",
-        "summary": "Eight interior designers and architects discuss the beach cottages, country villas and lakeside retreats that inform their aesthetics.",
-        "section": "T Magazine",
-        "byline": "By Laura May Todd",
-        "date": "2025-08-28T21:36:10Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Did the Camera Ever Tell the Truth?",
-        "summary": "A trust apocalypse is here.",
-        "section": "Opinion",
-        "byline": "By Maximilien Van Aertryck and Axel Danielson",
-        "date": "2025-06-10T09:01:50Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Chefs on the Films That Always Make Them Hungry",
-        "summary": "Nancy Silverton, Daniela Soto-Innes and more talk about the movies that have inspired and continue to reignite their love of cooking.",
-        "section": "T Magazine",
-        "byline": "By Lauren Joseph",
-        "date": "2025-06-05T21:18:14Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Book: Fantasy",
-        "summary": "Whether you\u2019re looking for a classic or the latest and greatest, start here.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-04-02T21:22:45Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The 50 Best Movies on HBO Max Right Now",
-        "summary": "In addition to new Warner and HBO films, the streamer has a treasure trove of Golden Age classics, indie flicks and foreign films. Start with these.",
-        "section": "Movies",
-        "byline": "By Scott Tobias",
-        "date": "2025-05-05T17:49:35Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Book: Fantasy",
-        "summary": "Whether you\u2019re looking for a classic or the latest and greatest, start here.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-04-02T21:22:45Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Thriller",
-        "summary": "Whether you\u2019re looking for a classic or the latest and greatest, start here.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-01-14T17:07:01Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Book: Romance",
-        "summary": "Whether you\u2019re looking for a classic or the latest and greatest, start here.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2025-02-05T19:46:28Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The Movies That Fashion Designers Watch Again and Again",
-        "summary": "Nine designers discuss the films that continue to inform their aesthetics, from \u201cIn the Mood for Love\u201d to \u201cThe Exorcist.\u201d",
-        "section": "T Magazine",
-        "byline": "By Emilia Petrarca",
-        "date": "2025-01-17T20:10:04Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Best Movies of 2024",
-        "summary": "Our film critics rank their 10 favorites this year.",
-        "section": "Movies",
-        "byline": "By Manohla Dargis and Alissa Wilkinson",
-        "date": "2024-11-30T17:26:45Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Let Us Help You Find Your Next Book",
-        "summary": "Reading picks from Book Review editors, guaranteed to suit any mood.",
-        "section": "Books",
-        "byline": "By The New York Times Books Staff",
-        "date": "2024-02-22T20:01:37Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "30 Classic Christmas Movies to Watch This Holiday Season",
-        "summary": "Our list of classics is broad, from warm Old Hollywood favorites to the sort of boozy, vulgar entertainments that parents can watch after putting the kids to bed.",
-        "section": "Movies",
-        "byline": "By Scott Tobias",
-        "date": "2023-12-05T12:00:17Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "The 50 Best Movies on Netflix Right Now",
-        "summary": "There are so many film experiences to choose from on Netflix, let us help you narrow down your choices.",
-        "section": "Movies",
-        "byline": "By Jason Bailey",
-        "date": "2023-07-07T19:24:37Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Your Monday Briefing: China\u2019s Leader Warns of \u2018Stormy Seas\u2019",
-        "summary": "Plus explosions in the Russian city of Belgorod and a fire at a notorious prison in Iran.",
-        "section": "Briefing",
-        "byline": "By Jonathan Wolfe",
-        "date": "2022-10-16T21:02:10Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Tracking Dangerous Heat in the U.S.",
-        "summary": "See detailed maps of the latest heat index forecasts in the United States.",
-        "section": "U.S.",
-        "byline": "By Matthew Bloch, Lazaro Gamio, Zach Levitt, Eleanor Lutz, Bea Malsky and John-Michael Murphy",
-        "date": "2022-07-12T17:52:36Z"
-    },
-    {
-        "movie_title": "movie_title",
-        "headline": "Editor\u2019s Note",
-        "summary": "This article was published in error.",
+        "headline": "Jack Black Hits the Charts With Another Song From a Video Game Movie",
+        "summary": "\u201cSteve\u2019s Lava Chicken,\u201d a 34-second song from \u201cA Minecraft Movie,\u201d made the Billboard Hot 100. He charted before with a song from \u201cThe Super Mario Bros. Movie.\u201d",
         "section": "Arts",
-        "byline": "",
-        "date": "2022-08-18T18:50:48Z"
+        "byline": "By Derrick Bryson Taylor",
+        "date": "2025-04-29T18:00:22Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "2022 Oscar Nominations: Full Ballot",
-        "summary": "See this year\u2019s Oscar nominees and make your picks.",
+        "headline": "Gene Hackman: 13 Memorable Movies to Stream",
+        "summary": "He played a complicated hero in \u201cThe French Connection\u201d and an arch-villain in \u201cSuperman.\u201d Here are some of Hackman\u2019s career highlights.",
         "section": "Movies",
-        "byline": "",
-        "date": "2022-03-04T18:12:32Z"
+        "byline": "By Alex Marshall and Noel Murray",
+        "date": "2025-02-27T10:58:14Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "A lawsuit filed by Texas governor reveals that many of the state\u2019s Army National Guard refused vaccines.",
-        "summary": ",",
-        "section": "World",
-        "byline": "By Andrea Kannapell",
-        "date": "2022-01-05T02:51:05Z"
+        "headline": "How Did \u2018Hercules\u2019 Get So Lame?",
+        "summary": "A Disney musical based on the 1997 animated movie feels as though its creators wanted to get to the finish line and move on.",
+        "section": "Theater",
+        "byline": "By Matt Wolf",
+        "date": "2025-06-25T14:23:17Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "The Best Movies on Amazon Prime Video Right Now",
-        "summary": "New films, and classics, just keep coming, but you don\u2019t have to drill down to find the finest selections to stream. We\u2019ll do the heavy lifting. You press play.",
+        "headline": "Last Year\u2019s Cannes Winners Won Big at Oscars. Can the 2025 Crop Do the Same?",
+        "summary": "The most likely movies to grab academy voters are \u201cUn Simple Accident,\u201d \u201cSentimental Value\u201d and \u201cNouvelle Vague.\u201d But none are primarily in English.",
         "section": "Movies",
-        "byline": "By Jason Bailey",
-        "date": "2020-09-10T05:52:48Z"
+        "byline": "By Kyle Buchanan",
+        "date": "2025-05-26T09:03:41Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "The 50 Best TV Shows and Movies to Watch on Disney+ Right Now",
-        "summary": "The Disney streaming platform has hundreds of movie and TV titles, drawing from its own deep reservoir of classics and from Star Wars, Marvel, National Geographic and more. These are our favorites.",
+        "headline": "\u2018The Girlfriend\u2019 and 5 More Things to Watch on TV This Week",
+        "summary": "The thriller series premieres on Prime Video, and the 77th annual Emmy Awards air on Sunday.",
+        "section": "Arts",
+        "byline": "By Shivani Gonzalez",
+        "date": "2025-09-08T05:00:05Z"
+    },
+    {
+        "headline": "\u2018Inheritance\u2019 Review: A Thriller Without Thrills",
+        "summary": "Shot on an iPhone, this globe-trotting drama fails to deliver on its promises.",
         "section": "Movies",
-        "byline": "By Scott Tobias",
-        "date": "2020-09-04T21:48:36Z"
+        "byline": "By Alissa Wilkinson",
+        "date": "2025-01-23T10:00:44Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Issue Archive",
-        "summary": "Past issues of The New York Times Magazine.",
-        "section": "Magazine",
-        "byline": "",
-        "date": "2020-07-02T21:22:22Z"
+        "headline": "Amie Donald Has the Moves as the Killer Robot in \u2018M3gan 2.0\u2019",
+        "summary": "The sunny 15-year-old dancer-turned-actress is about as far as you can get from the role she\u2019s best known for: a deadly A.I. doll.",
+        "section": "Movies",
+        "byline": "By Sarah Bahr",
+        "date": "2025-06-27T09:00:41Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Bloomberg campaign reached out to Yang and discussed an endorsement.",
-        "summary": ".",
-        "section": "U.S.",
-        "byline": "By Matt Stevens",
-        "date": "2020-02-28T00:59:24Z"
+        "headline": "\u2018Another Simple Favor\u2019 Review: Big Hats and Big Intrigue",
+        "summary": "The sequel to the deranged 2018 comedy finds Blake Lively and Anna Kendrick feuding in the Italian sun.",
+        "section": "Movies",
+        "byline": "By Alissa Wilkinson",
+        "date": "2025-05-01T09:01:23Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "TITLES OF BOOKS.",
-        "summary": "",
-        "section": "Archives",
-        "byline": "",
-        "date": "1871-12-24T05:00:00Z"
+        "headline": "\u2018Riff Raff\u2019 Review: These Jokes Don\u2019t Kill",
+        "summary": "The dark mayhem spun up by this crime comedy might seem a little familiar.",
+        "section": "Movies",
+        "byline": "By Glenn Kenny",
+        "date": "2025-02-27T12:00:05Z"
     },
     {
-        "movie_title": "movie_title",
-        "headline": "Movietone News.",
-        "summary": "",
-        "section": "Archives",
-        "byline": "",
-        "date": "1932-05-02T05:00:00Z"
+        "headline": "\u2018The Damned\u2019 Review: Unfortunate Sons",
+        "summary": "In Roberto Minervini\u2019s intimate and impressionistic drama, a group of Civil War scouts faces the harsh realities of the uncharted Montana territory.",
+        "section": "Movies",
+        "byline": "By Jeannette Catsoulis",
+        "date": "2025-05-15T09:01:41Z"
+    },
+    {
+        "headline": "A New Requirement for Oscar Voters: They Must Actually Watch the Films",
+        "summary": "The new rule, announced this week by the Academy of Motion Picture Arts and Sciences, was greeted with laughter and disbelief that it had not been required all along.",
+        "section": "Movies",
+        "byline": "By Derrick Bryson Taylor",
+        "date": "2025-04-24T15:22:27Z"
+    },
+    {
+        "headline": "The Strangely Beautiful Realities You Can Discover in a Ken Jacobs Film",
+        "summary": "The avant-garde director, who died Sunday, changed our ideas of what cinema was and could be while showing us the old, lost New York.",
+        "section": "Movies",
+        "byline": "By Manohla Dargis",
+        "date": "2025-10-07T19:28:54Z"
+    },
+    {
+        "headline": "Kim Novak, 92, Finds a Defiant Life Has Its Own Rewards",
+        "summary": "A lifetime achievement award from the Venice Film Festival and two new films are bringing the star of \u201cVertigo\u201d back into public view.",
+        "section": "Movies",
+        "byline": "By David Belcher",
+        "date": "2025-08-25T13:59:58Z"
+    },
+    {
+        "headline": "8 New Movies Our Critics Are Talking About This Week",
+        "summary": "Whether you\u2019re a casual moviegoer or an avid buff, our reviewers think these films are worth knowing about.",
+        "section": "Movies",
+        "byline": "By The New York Times",
+        "date": "2024-11-01T09:04:50Z"
+    },
+    {
+        "headline": "Five Science Fiction Movies to Stream Now",
+        "summary": "In this month\u2019s picks, expect mutating zombies, hostile planets and teleportation.",
+        "section": "Movies",
+        "byline": "By Elisabeth Vincentelli",
+        "date": "2025-08-01T15:00:09Z"
+    },
+    {
+        "headline": "\u2018Springsteen: Deliver Me From Nowhere\u2019: What\u2019s Fact, What\u2019s Fictionalized",
+        "summary": "The new biopic gets a lot right about the Boss and the making of \u201cNebraska.\u201d But there are elements that were made up for the film.",
+        "section": "Movies",
+        "byline": "By Ben Sisario",
+        "date": "2025-10-24T09:02:18Z"
+    },
+    {
+        "headline": "Theater to Stream: Morgan Freeman in \u2018Gospel at Colonus\u2019 and More",
+        "summary": "Can\u2019t catch the live revival of this retelling of \u201cOedipus at Colonus\u201d? Stream a version with Freeman and Robert Earl Jones, or four more stage-related shows.",
+        "section": "Theater",
+        "byline": "By Elisabeth Vincentelli",
+        "date": "2025-07-15T09:01:32Z"
+    },
+    {
+        "headline": "Marlee Matlin Tells Her Own Unvarnished Story",
+        "summary": "In a new documentary, the actress talks about the prejudice and loneliness she faced after becoming the rare Hollywood star who is deaf.",
+        "section": "Movies",
+        "byline": "By Alissa Wilkinson",
+        "date": "2025-06-20T09:00:50Z"
+    },
+    {
+        "headline": "Which Films Will Be Nominated for Best Picture at the Oscars?",
+        "summary": "You can expect the A-B-C-D-E movies (\u201cAnora,\u201d \u201cThe Brutalist,\u201d \u201cConclave,\u201d \u201cDune: Part Two\u201d and \u201cEmilia P\u00e9rez\u201d). But what will join them?",
+        "section": "Movies",
+        "byline": "By Kyle Buchanan",
+        "date": "2024-12-18T10:04:47Z"
+    },
+    {
+        "headline": "7 New Movies Our Critics Are Talking About This Week",
+        "summary": "Whether you\u2019re a casual moviegoer or an avid buff, our reviewers think these films are worth knowing about.",
+        "section": "Movies",
+        "byline": "By The New York Times",
+        "date": "2025-01-17T10:01:55Z"
+    },
+    {
+        "headline": "E. Jean Carroll Is Telling Her Story in a Documentary, but Will It Find a Buyer?",
+        "summary": "The film, from Ivy Meeropol, will play Telluride. But as distributors pull back from nonfiction titles, especially political ones, a release isn\u2019t certain.",
+        "section": "Movies",
+        "byline": "By Nicole Sperling",
+        "date": "2025-08-28T15:00:05Z"
+    },
+    {
+        "headline": "Five Horror Movies to Stream Now",
+        "summary": "In this month\u2019s picks, death comes from unexpected places and unseen psychos.",
+        "section": "Movies",
+        "byline": "By Erik Piepenburg",
+        "date": "2025-09-12T15:00:05Z"
+    },
+    {
+        "headline": "Killer Clowns and Red Balloons: What to Know About \u2018It: Welcome to Derry\u2019",
+        "summary": "The new HBO series is a prequel to the two movies starring Bill Skarsgard as Pennywise, based on the 1986 Stephen King novel. Here\u2019s a primer.",
+        "section": "Arts",
+        "byline": "By Robin Raven",
+        "date": "2025-10-24T09:02:27Z"
+    },
+    {
+        "headline": "\u2018Bona\u2019: A Filipina Superstar Wreaks Vengeance in a Two-Fisted Melodrama",
+        "summary": "Recently rediscovered and now digitally restored, Lino Brocka\u2019s 1980 movie, starring Nora Aunor, opens for a week at Metrograph.",
+        "section": "Movies",
+        "byline": "By J. Hoberman",
+        "date": "2024-12-05T12:00:04Z"
+    },
+    {
+        "headline": "Five Horror Movies to Stream Now",
+        "summary": "In this month\u2019s picks, death comes from unexpected places and unseen psychos.",
+        "section": "Movies",
+        "byline": "By Erik Piepenburg",
+        "date": "2025-09-12T15:00:05Z"
+    },
+    {
+        "headline": "\u2018Compensation\u2019 Review: Still Rebellious",
+        "summary": "Finally getting a theatrical run, Zeinabu irene Davis\u2019s 1999 film about two Black couples in Chicago in two different eras earns its landmark status.",
+        "section": "Movies",
+        "byline": "By Lisa Kennedy",
+        "date": "2025-02-20T15:38:32Z"
+    },
+    {
+        "headline": "Leigh Whannell and His Personal Monsters",
+        "summary": "The writer and director of \u201cThe Invisible Man,\u201d 21st-century style, is back with an interpretation of another Universal Pictures monster movie, \u201cWolf Man.\u201d",
+        "section": "Movies",
+        "byline": "By Esther Zuckerman",
+        "date": "2025-01-16T09:55:05Z"
+    },
+    {
+        "headline": "Three Great Documentaries to Stream",
+        "summary": "In this month\u2019s picks, a chilling true-crime entry, a movie about an execution equipment manufacturer and a devilish doc from the \u201cExorcist\u201d director William Friedkin.",
+        "section": "Movies",
+        "byline": "By Ben Kenigsberg",
+        "date": "2025-10-30T09:04:42Z"
+    },
+    {
+        "headline": "When Coming to America, European Directors Sometimes Get Lost in Translation",
+        "summary": "The history of European directors \u201cgoing Hollywood\u201d and making the leap to English-language filmmaking is long and uneven.",
+        "section": "Movies",
+        "byline": "By A.J. Goldmann",
+        "date": "2024-12-13T17:51:09Z"
+    },
+    {
+        "headline": "21 Movies, Books and Albums With a Theater Focus to Consume During the Holidays",
+        "summary": "Make it through the holidays with these movies, books and music from the past year that are adapted from stage productions or evoke a theatrical spirit.",
+        "section": "Theater",
+        "byline": "By Nicole Herrington and Rachel Sherman",
+        "date": "2024-12-20T18:32:23Z"
+    },
+    {
+        "headline": "Watch Nicole Kidman and Harris Dickinson Connect in \u2018Babygirl\u2019",
+        "summary": "The film\u2019s writer and director, Halina Reijn, narrates a sequence.",
+        "section": "Movies",
+        "byline": "By Mekado Murphy",
+        "date": "2025-01-10T10:02:11Z"
+    },
+    {
+        "headline": "Guy Pearce Never Needed to Be a Movie Star",
+        "summary": "After roles in \u201cMemento\u201d and \u201cL.A. Confidential\u201d made him famous, Pearce turned his back on Hollywood. At age 57, he\u2019s returned in \u201cThe Brutalist.\u201d",
+        "section": "Movies",
+        "byline": "By Kyle Buchanan and Caroline Tompkins",
+        "date": "2025-01-15T10:01:18Z"
+    },
+    {
+        "headline": "Julia Roberts and Luca Guadagnino on \u2018After the Hunt\u2019 and Daring to Be Ambiguous",
+        "summary": "The film touches on #MeToo and cancel culture, but the star and director wanted audiences to make up their own minds.",
+        "section": "Movies",
+        "byline": "By Kyle Buchanan",
+        "date": "2025-10-15T09:02:09Z"
     }
 ]
