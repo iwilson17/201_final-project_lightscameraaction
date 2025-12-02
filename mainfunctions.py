@@ -19,7 +19,7 @@ def get_tmdb_movies(pages=5, output_file="movie.json"):
         # Endpoint for popular movies
         url = "https://api.themoviedb.org/3/movie/popular"
         params = {
-            "api_key": api_key.api_key,
+            "api_key": tmdb_key.api_key,
             "language": "en-US",
             "page": page
         }
@@ -34,7 +34,7 @@ def get_tmdb_movies(pages=5, output_file="movie.json"):
             # Fetch detailed info
             detail_url = f"https://api.themoviedb.org/3/movie/{tmdb_id}"
             detail_params = {
-                "api_key": api_key.api_key,
+                "api_key": omdb_key.api_key,
                 "language": "en-US"
             }
 
@@ -64,7 +64,7 @@ def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
     for imdb_id in imdb_ids:
 
         params = {
-            "apikey": api_key.api_key,
+            "apikey": omdb_key.api_key,
             "i": imdb_id
         }
 
@@ -91,7 +91,7 @@ def get_nyt_movie_articles(movie_title):
     
     params = {
         "q": movie_title, 
-        "api-key": my_key.API_KEY,
+        "api-key": nyt_key.API_KEY,
 
     }
 
