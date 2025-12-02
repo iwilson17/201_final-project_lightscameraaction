@@ -1,14 +1,66 @@
 # SI 201 HW4
-# Your names: Isa Wilson, Amani, Ra
-# Your emails: ifwilson@umich.edu 
+# Your names: Isa Wilson, Amani, Rahma
+# Your emails: ifwilson@umich.edu, aaggour@umich.edu, rmusse@umich.edu
 # Who or what you worked with on this homework (including generative AI like ChatGPT): ChatGPT
 # If you worked with generative AI also add a statement for how you used it. We used ChatGPT for assistance debugging the code.
 # e.g.: 
 # Asked Chatgpt hints for debugging and suggesting the general sturcture of the code
-
 import requests
 import json
 import nyt_key
+
+def get_tmdb_movies(pages=5, output_file="movie.json"):
+    """
+    Fetches popular movies from TMDB, gets detailed info for each movie,
+    and saves the results to a JSON file.
+
+    Returns: list of movie dictionaries
+    """
+
+    movies = []
+
+    for page in range(1, pages + 1):
+
+        # Endpoint for popular movies
+        url = "https://api.themoviedb.org/3/movie/popular"
+        params = {
+            "api_key": api_key.api_key,
+            "language": "en-US",
+            "page": page
+        }
+
+        response = requests.get(url, params=params)
+        data = response.json()
+
+        # Loop through movies on the page
+        for movie in data.get("results", []):
+            tmdb_id = movie["id"]
+
+            # Fetch detailed info
+            detail_url = f"https://api.themoviedb.org/3/movie/{tmdb_id}"
+            detail_params = {
+                "api_key": api_key.api_key,
+                "language": "en-US"
+            }
+
+            detail_res = requests.get(detail_url, params=detail_params)
+            detail_data = detail_res.json()
+
+            # Save relevant fields
+            movies.append({
+                "title": detail_data.get("title"),
+                "tmdb_id": tmdb_id,
+                "imdb_id": detail_data.get("imdb_id"),
+                "budget": detail_data.get("budget")
+            })
+
+    # Save to file
+    with open(output_file, "w") as f:
+        json.dump(movies, f, indent=4)
+
+    print(f"Saved {len(movies)} movies to {output_file}")
+    return movies
+
 
 def get_nyt_movie_articles(movie_title):
     url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
