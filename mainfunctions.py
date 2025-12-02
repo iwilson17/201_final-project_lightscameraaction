@@ -97,7 +97,7 @@ def get_nyt_movie_articles():
         params = {
             "q": "movie OR film OR review",
             "fq": 'desk:("Culture","Arts") OR section.name:("Movies")',
-            "api-key": my_key.API_KEY,
+            "api-key": nyt_key.API_KEY,
             "page": page
         }
 
