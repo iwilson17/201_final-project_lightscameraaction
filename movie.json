@@ -598,5 +598,125 @@
         "tmdb_id": 19995,
         "imdb_id": "tt0499549",
         "budget": 237000000
+    },
+    {
+        "title": "Trap House",
+        "tmdb_id": 628847,
+        "imdb_id": "tt10799690",
+        "budget": 0
+    },
+    {
+        "title": "Lover",
+        "tmdb_id": 1219158,
+        "imdb_id": "tt28566478",
+        "budget": 0
+    },
+    {
+        "title": "Psycho",
+        "tmdb_id": 11252,
+        "imdb_id": "tt0155975",
+        "budget": 25000000
+    },
+    {
+        "title": "Stolen Girl",
+        "tmdb_id": 1280450,
+        "imdb_id": "tt4682810",
+        "budget": 26000000
+    },
+    {
+        "title": "Abyss",
+        "tmdb_id": 1025527,
+        "imdb_id": "tt29610108",
+        "budget": 0
+    },
+    {
+        "title": "It",
+        "tmdb_id": 346364,
+        "imdb_id": "tt1396484",
+        "budget": 35000000
+    },
+    {
+        "title": "Afterburn",
+        "tmdb_id": 507244,
+        "imdb_id": "tt1210027",
+        "budget": 60000000
+    },
+    {
+        "title": "A Minecraft Movie",
+        "tmdb_id": 950387,
+        "imdb_id": "tt3566834",
+        "budget": 150000000
+    },
+    {
+        "title": "Your Name.",
+        "tmdb_id": 372058,
+        "imdb_id": "tt5311514",
+        "budget": 0
+    },
+    {
+        "title": "Elio",
+        "tmdb_id": 1022787,
+        "imdb_id": "tt4900148",
+        "budget": 150000000
+    },
+    {
+        "title": "Family Disaster",
+        "tmdb_id": 1475189,
+        "imdb_id": "tt32768356",
+        "budget": 0
+    },
+    {
+        "title": "The Ugly Stepsister",
+        "tmdb_id": 1284120,
+        "imdb_id": "tt29344903",
+        "budget": 4250000
+    },
+    {
+        "title": "EKS",
+        "tmdb_id": 1241742,
+        "imdb_id": "tt31262680",
+        "budget": 0
+    },
+    {
+        "title": "Lilo & Stitch",
+        "tmdb_id": 552524,
+        "imdb_id": "tt11655566",
+        "budget": 100000000
+    },
+    {
+        "title": "Primitive War",
+        "tmdb_id": 1257009,
+        "imdb_id": "tt18312380",
+        "budget": 0
+    },
+    {
+        "title": "Inside Out 2",
+        "tmdb_id": 1022789,
+        "imdb_id": "tt22022452",
+        "budget": 200000000
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "tmdb_id": 278,
+        "imdb_id": "tt0111161",
+        "budget": 25000000
+    },
+    {
+        "title": "Stitch Head",
+        "tmdb_id": 1214130,
+        "imdb_id": "tt26720001",
+        "budget": 34800000
+    },
+    {
+        "title": "Moana 2",
+        "tmdb_id": 1241982,
+        "imdb_id": "tt13622970",
+        "budget": 150000000
+    },
+    {
+        "title": "Ballerina",
+        "tmdb_id": 541671,
+        "imdb_id": "tt7181546",
+        "budget": 90000000
     }
 ]
