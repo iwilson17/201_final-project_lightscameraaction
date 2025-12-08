@@ -88,33 +88,29 @@ def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
     return movies
 
 
-def get_nyt_movie_articles(genres=None, pages=10, output_file="nyt_articles.json"):
-    if genres is None: 
-        genres = ["movies"]
-
+def get_nyt_movie_articles(pages=10, output_file="nyt_articles.json"):
     articles = []
-    for genre in genres: 
-       for page in range(0, pages): 
-            url = "https://api.nytimes.com/svc/search/v2/articlesearch.json" 
-            params = {
-                "q": f"{genre} movies OR {genre} films", 
-                "api-key": nyt_key.api_key,
-                "page": page
-            }
+    for page in range(pages): 
+        url = "https://api.nytimes.com/svc/search/v2/articlesearch.json" 
+        params = {
+            "q": "movie OR film", 
+            "fq": 'section_name:("Movies")',
+            "api-key": nyt_key.api_key,
+            "page": page
+        }
 
-            response = requests.get(url, params=params)
-            data = response.json()
-            
-            for d in data.get("response", {}).get("docs", []): 
-                articles.append ({
-                    "genre": genre,
-                    "headline": d.get("headline", {}).get("main"), 
-                    "summary": d.get("snippet") or d.get("lead_paragraph") or d.get("abstract"),
-                    "section": d.get("section_name"), 
-                    "byline": d.get("byline", {}).get("original"),
-                    "date": d.get("pub_date"),
-                    "url": d.get("web_url")
-                })
+        response = requests.get(url, params=params)
+        data = response.json()
+        
+        for d in data.get("response", {}).get("docs", []): 
+            articles.append ({
+                "headline": d.get("headline", {}).get("main"), 
+                "summary": d.get("snippet") or d.get("lead_paragraph") or d.get("abstract"),
+                "section": d.get("section_name"), 
+                "byline": d.get("byline", {}).get("original"),
+                "date": d.get("pub_date"),
+                "url": d.get("web_url")
+            })
     with open(output_file, "w") as f: 
         json.dump(articles, f, indent=4)
 
