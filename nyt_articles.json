@@ -19,15 +19,6 @@
     },
     {
         "genre": "movies",
-        "headline": "Five Horror Movies to Stream Now",
-        "summary": "This month\u2019s movies include cosmopolitan assassins, flesh-slicing swashbucklers and seasoned supernatural detectives.",
-        "section": "Movies",
-        "byline": "By Erik Piepenburg",
-        "date": "2025-12-05T16:00:03Z",
-        "url": "https://www.nytimes.com/2025/12/05/movies/horror-movies-streaming.html"
-    },
-    {
-        "genre": "movies",
         "headline": "Dashing Through a Season of Holiday Movies",
         "summary": "For one writer, putting together her annual roundup of streaming holiday movies requires open-mindedness \u2014 and a high tolerance for candy-coated clich\u00e9s.",
         "section": "Times Insider",
@@ -73,6 +64,24 @@
     },
     {
         "genre": "movies",
+        "headline": "20 Great Holiday Romance Movies",
+        "summary": "From timeless classics to frothy distractions, we\u2019ve picked the best holiday romances currently available to stream.",
+        "section": "Movies",
+        "byline": "By Ashley Spencer",
+        "date": "2025-12-05T16:00:07Z",
+        "url": "https://www.nytimes.com/2025/12/05/movies/holiday-christmas-romance-movies.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Do You Know These Authors Who Appeared in the Filmed Versions of Their Books?",
+        "summary": "Some writers have followed their words onto the screen. Try this short quiz to see if you recall five of those cameo scenes.",
+        "section": "Books",
+        "byline": "By J. D. Biersdorfer",
+        "date": "2025-12-01T15:30:03Z",
+        "url": "https://www.nytimes.com/interactive/2025/12/01/books/review/book-author-cameos.html"
+    },
+    {
+        "genre": "movies",
         "headline": "Five Horror Movies to Stream Now",
         "summary": "This month\u2019s picks include a loner on the razor\u2019s edge, a witch on a bloodthirsty mission and an actress walking a doomed path.",
         "section": "Movies",
@@ -92,11 +101,11 @@
     {
         "genre": "movies",
         "headline": "Five Horror Movies to Stream Now",
-        "summary": "This month\u2019s movies include cosmopolitan assassins, flesh-slicing swashbucklers and seasoned supernatural detectives.",
+        "summary": "This month\u2019s picks include a loner on the razor\u2019s edge, a witch on a bloodthirsty mission and an actress walking a doomed path.",
         "section": "Movies",
         "byline": "By Erik Piepenburg",
-        "date": "2025-12-05T16:00:03Z",
-        "url": "https://www.nytimes.com/2025/12/05/movies/horror-movies-streaming.html"
+        "date": "2025-11-07T16:00:03Z",
+        "url": "https://www.nytimes.com/2025/11/07/movies/five-horror-movies-to-stream-now.html"
     },
     {
         "genre": "movies",
@@ -172,12 +181,12 @@
     },
     {
         "genre": "movies",
-        "headline": "7 New Movies Our Critics Are Talking About This Week",
-        "summary": "Whether you\u2019re a casual moviegoer or an avid buff, our reviewers think these films are worth knowing about.",
+        "headline": "Watch These Six Heist Movies",
+        "summary": "If you thought that heist at the Louvre sounded like something out of a movie, this collection of heist films just might be for you.",
         "section": "Movies",
-        "byline": "By The New York Times",
-        "date": "2025-11-28T10:01:49Z",
-        "url": "https://www.nytimes.com/2025/11/28/movies/new-movies-this-week-critics.html"
+        "byline": "By Esther Zuckerman",
+        "date": "2025-10-20T20:35:07Z",
+        "url": "https://www.nytimes.com/2025/10/20/movies/heist-movies-streaming.html"
     },
     {
         "genre": "movies",
@@ -199,21 +208,21 @@
     },
     {
         "genre": "movies",
-        "headline": "The Best Movies and TV Shows Coming to Disney+, Amazon, HBO Max, Peacock and More in December",
-        "summary": "\u201cF1: The Movie,\u201d \u201cIt\u2019s Never Over, Jeff Buckley\u201d and \u201cThe Life of Chuck\u201d arrive, and \u201cFallout\u201d and \u201cPercy Jackson\u201d return.",
-        "section": "Arts",
-        "byline": "By Noel Murray",
-        "date": "2025-12-01T18:35:26Z",
-        "url": "https://www.nytimes.com/2025/12/01/arts/television/movies-tv-shows-december-2025-streaming.html"
-    },
-    {
-        "genre": "movies",
         "headline": "The Best Movies of the 21st Century: Readers Choose Their Top Movies",
         "summary": "The people have spoken. Here are the movies they voted for.",
         "section": "Movies",
         "byline": "By The New York Times",
         "date": "2025-07-02T18:27:10Z",
         "url": "https://www.nytimes.com/interactive/2025/movies/readers-movies-21st-century.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Free Movies to Stream Now",
+        "summary": "Films including \u201cJodorowsky\u2019s Dune\u201d and Owen Kline\u2019s \u201cFunny Pages\u201d delve into the pain and anguish \u2014 and brief ecstasy \u2014 of making art.",
+        "section": "Movies",
+        "byline": "By Brandon Yu",
+        "date": "2025-06-20T16:09:10Z",
+        "url": "https://www.nytimes.com/2025/06/20/movies/five-free-movies-to-stream-now.html"
     },
     {
         "genre": "movies",
@@ -226,12 +235,12 @@
     },
     {
         "genre": "movies",
-        "headline": "Five Free Movies to Stream Now",
-        "summary": "Films including \u201cJodorowsky\u2019s Dune\u201d and Owen Kline\u2019s \u201cFunny Pages\u201d delve into the pain and anguish \u2014 and brief ecstasy \u2014 of making art.",
+        "headline": "The Strangely Beautiful Realities You Can Discover in a Ken Jacobs Film",
+        "summary": "The avant-garde director, who died Sunday, changed our ideas of what cinema was and could be while showing us the old, lost New York.",
         "section": "Movies",
-        "byline": "By Brandon Yu",
-        "date": "2025-06-20T16:09:10Z",
-        "url": "https://www.nytimes.com/2025/06/20/movies/five-free-movies-to-stream-now.html"
+        "byline": "By Manohla Dargis",
+        "date": "2025-10-07T19:28:54Z",
+        "url": "https://www.nytimes.com/2025/10/07/movies/ken-jacobs-appreciation.html"
     },
     {
         "genre": "movies",
@@ -253,12 +262,12 @@
     },
     {
         "genre": "movies",
-        "headline": "The Strangely Beautiful Realities You Can Discover in a Ken Jacobs Film",
-        "summary": "The avant-garde director, who died Sunday, changed our ideas of what cinema was and could be while showing us the old, lost New York.",
+        "headline": "7 New Movies Our Critics Are Talking About This Week",
+        "summary": "Whether you\u2019re a casual moviegoer or an avid buff, our reviewers think these films are worth knowing about.",
         "section": "Movies",
-        "byline": "By Manohla Dargis",
-        "date": "2025-10-07T19:28:54Z",
-        "url": "https://www.nytimes.com/2025/10/07/movies/ken-jacobs-appreciation.html"
+        "byline": "By The New York Times",
+        "date": "2025-10-17T09:02:12Z",
+        "url": "https://www.nytimes.com/2025/10/17/movies/new-movies-this-week-critics.html"
     },
     {
         "genre": "movies",
@@ -268,5 +277,176 @@
         "byline": "By The New York Times",
         "date": "2025-10-17T09:02:12Z",
         "url": "https://www.nytimes.com/2025/10/17/movies/new-movies-this-week-critics.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Pope Leo Shares His Favorite Movies Ahead of Vatican Event",
+        "summary": "The list leans heavily on uplifting classics.",
+        "section": "Movies",
+        "byline": "By Maya Salam",
+        "date": "2025-11-11T22:05:30Z",
+        "url": "https://www.nytimes.com/2025/11/11/movies/pope-leo-favorite-movies.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Action Movies to Stream Now",
+        "summary": "This month\u2019s picks include elaborate ambulance chasing, a killer shark and crime south of the border.",
+        "section": "Movies",
+        "byline": "By Robert Daniels",
+        "date": "2025-11-28T16:00:03Z",
+        "url": "https://www.nytimes.com/2025/11/28/movies/five-action-movies-to-stream-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Free Movies to Stream Now",
+        "summary": "For the Thanksgiving holiday, this month\u2019s picks, including \u201cForce Majeure\u201d and \u201cThe Humans,\u201d look at family togetherness in all its mundane glory.",
+        "section": "Movies",
+        "byline": "By Brandon Yu",
+        "date": "2025-11-21T16:00:36Z",
+        "url": "https://www.nytimes.com/2025/11/21/movies/five-free-movies-to-stream-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Action Movies to Stream Now",
+        "summary": "This month\u2019s picks include convicted swordsmen, crooked cops and bumbling heroes who can\u2019t feel pain.",
+        "section": "Movies",
+        "byline": "By Robert Daniels",
+        "date": "2025-10-31T15:00:05Z",
+        "url": "https://www.nytimes.com/2025/10/31/movies/action-movies-streaming.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "The Summer Movies That Made Us",
+        "summary": "In 1990, Arnold, Whoopi and Swayze starred in films that stole our teenage hearts \u2026 and stayed with us for decades. Why don\u2019t they make \u2018em like that anymore?",
+        "section": "Podcasts",
+        "byline": "By Wesley Morris, Sam Anderson, John White, Austin Mitchell, Janelle Anderson, Elyssa Dudley, Lisa Tobin and Daniel Ramirez",
+        "date": "2025-08-28T09:00:28Z",
+        "url": "https://www.nytimes.com/2025/08/28/podcasts/cannonball-summer-movies.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Horror Movies to Stream Now",
+        "summary": "In this month\u2019s picks, death comes from unexpected places and unseen psychos.",
+        "section": "Movies",
+        "byline": "By Erik Piepenburg",
+        "date": "2025-09-12T15:00:05Z",
+        "url": "https://www.nytimes.com/2025/09/12/movies/five-horror-movies-to-stream-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Josh Hutcherson Is Back. He Never Wanted to Leave.",
+        "summary": "The \u201cFive Nights at Freddy\u2019s\u201d and \u201cI Love L.A.\u201d star found instant success as a child actor. After his \u201cHunger Games\u201d fame, it felt like it almost all went away.",
+        "section": "Movies",
+        "byline": "By Ashley Spencer",
+        "date": "2025-12-06T10:01:56Z",
+        "url": "https://www.nytimes.com/2025/12/06/movies/josh-hutcherson-interview-five-nights-at-freddys-2.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Horror Movies to Stream Now",
+        "summary": "This month\u2019s picks include menacing grandparents, famished vampires and pernicious cultists.",
+        "section": "Movies",
+        "byline": "By Erik Piepenburg",
+        "date": "2025-07-18T15:00:05Z",
+        "url": "https://www.nytimes.com/2025/07/18/movies/five-horror-movies-to-stream-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "80 Movies to Watch This Fall",
+        "summary": "From the Springsteen biopic to the Timoth\u00e9e Chalamet table-tennis tale, there\u2019s so much to look forward to.",
+        "section": "Movies",
+        "byline": "By Ben Kenigsberg",
+        "date": "2025-09-08T09:02:34Z",
+        "url": "https://www.nytimes.com/2025/09/08/movies/fall-movie-releases.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five International Movies to Stream Now",
+        "summary": "In this month\u2019s picks, parents and children in India, Germany, Korea, Italy and Sudan grapple with the joys and perils of familial bonds.",
+        "section": "Movies",
+        "byline": "By Devika Girish",
+        "date": "2025-11-14T16:10:58Z",
+        "url": "https://www.nytimes.com/2025/11/14/movies/international-movies-streaming.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Horror Movies to Stream Now",
+        "summary": "Just in time for Halloween comes killer cola, a creeping phantasm and death from the commode.",
+        "section": "Movies",
+        "byline": "By Erik Piepenburg",
+        "date": "2025-10-10T15:00:02Z",
+        "url": "https://www.nytimes.com/2025/10/10/movies/horror-movies-streaming.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "The 50 Best Movies on HBO Max Right Now",
+        "summary": "In addition to new Warner and HBO films, the streamer has a treasure trove of Golden Age classics, indie flicks and foreign films. Start with these.",
+        "section": "Movies",
+        "byline": "By Scott Tobias",
+        "date": "2025-05-05T17:49:35Z",
+        "url": "https://www.nytimes.com/article/best-hbo-max-movies.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "20 Great Holiday Romance Movies",
+        "summary": "From timeless classics to frothy distractions, we\u2019ve picked the best holiday romances currently available to stream.",
+        "section": "Movies",
+        "byline": "By Ashley Spencer",
+        "date": "2025-12-05T16:00:07Z",
+        "url": "https://www.nytimes.com/2025/12/05/movies/holiday-christmas-romance-movies.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "65 Movies to See This Winter",
+        "summary": "An obsessed table-tennis player (\u201cMarty Supreme\u201d) and musicians in a Neil Diamond tribute band (\u201cSong Sung Blue\u201d) are among the season\u2019s screen gifts.",
+        "section": "Movies",
+        "byline": "By Ben Kenigsberg",
+        "date": "2025-11-09T10:00:52Z",
+        "url": "https://www.nytimes.com/2025/11/09/movies/movies-november-december-2025.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five International Movies to Stream Now",
+        "summary": "This month\u2019s picks include a Romanian essay film about television ads, a raucous action-comedy from South India, a Swiss drama about a middle-aged woman\u2019s sexual explorations and more.",
+        "section": "Movies",
+        "byline": "By Devika Girish",
+        "date": "2025-08-22T15:00:02Z",
+        "url": "https://www.nytimes.com/2025/08/22/movies/five-international-movies-to-stream-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "5 Children\u2019s Movies to Stream Now",
+        "summary": "This month\u2019s picks include the new \u201cSuperman\u201d reboot and an adaptation of a beloved Roald Dahl book.",
+        "section": "Movies",
+        "byline": "By Dina Gachman",
+        "date": "2025-11-07T10:01:57Z",
+        "url": "https://www.nytimes.com/2025/11/07/movies/kids-movies-streaming-now.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five Science Fiction Movies to Stream Now",
+        "summary": "In this month\u2019s selections, romance across dimensions and an animated entry in the \u201cPredator\u201d franchise.",
+        "section": "Movies",
+        "byline": "By Elisabeth Vincentelli",
+        "date": "2025-06-06T15:00:02Z",
+        "url": "https://www.nytimes.com/2025/06/06/movies/science-fiction-movies-streaming.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "\u2018The Secret Agent\u2019 Review: Carnival in the Face of Carnage",
+        "summary": "Wagner Moura takes cover in this knockout from the filmmaker Kleber Mendon\u00e7a Filho that is largely set in 1977 during Brazil\u2019s miliary dictatorship.",
+        "section": "Movies",
+        "byline": "By Manohla Dargis",
+        "date": "2025-11-26T15:20:24Z",
+        "url": "https://www.nytimes.com/2025/11/26/movies/the-secret-agent-review.html"
+    },
+    {
+        "genre": "movies",
+        "headline": "Five International Movies to Stream Now",
+        "summary": "This month\u2019s picks include a poetic documentary from South Africa, a Cold War thriller from Yugoslavia, a coming-of-age story set in the Dominican Republic, and more.",
+        "section": "Movies",
+        "byline": "By Devika Girish",
+        "date": "2025-10-17T15:40:20Z",
+        "url": "https://www.nytimes.com/2025/10/17/movies/five-international-movies-to-stream-now.html"
     }
 ]
