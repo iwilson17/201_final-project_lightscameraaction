@@ -7,8 +7,9 @@
 # Asked Chatgpt hints for debugging and suggesting the general sturcture of the code
 import os
 import json
+import re
 import requests
-from API_keys import nyt_key
+from API_keys import yt_key
 from API_keys import tmdb_key
 from API_keys import omdb_key 
 
@@ -88,34 +89,73 @@ def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
     return movies
 
 
-def get_nyt_movie_articles(pages=10, output_file="nyt_articles.json"):
-    articles = []
-    for page in range(pages): 
-        url = "https://api.nytimes.com/svc/search/v2/articlesearch.json" 
-        params = {
-            "q": "movie OR film", 
-            "fq": 'section_name:("Movies")',
-            "api-key": nyt_key.api_key,
-            "page": page
+def get_youtube_trailers(output_file="youtube_trailer.json"):
+    trailers = []
+    search_url = "https://www.googleapis.com/youtube/v3/search"
+    video_url = "https://www.googleapis.com/youtube/v3/videos"
+
+    for i in range(5): 
+        params_search = {
+            "key": yt_key.api_key,
+            "q": "official trailer", 
+            "part": "snippet",
+            "type": "video",
+            "maxResults": 50
         }
-
-        response = requests.get(url, params=params)
+        response = requests.get(search_url, params=params_search)
         data = response.json()
+        items = data.get("items", [])
+
+        if not items: 
+            break 
         
-        for d in data.get("response", {}).get("docs", []): 
-            articles.append ({
-                "headline": d.get("headline", {}).get("main"), 
-                "summary": d.get("snippet") or d.get("lead_paragraph") or d.get("abstract"),
-                "section": d.get("section_name"), 
-                "byline": d.get("byline", {}).get("original"),
-                "date": d.get("pub_date"),
-                "url": d.get("web_url")
+        for item in items: 
+            title = item["snippet"]["title"]
+            title = re.sub(r"&#39;", "'", title)
+            title = re.sub(r"[^\x20-\x7E]", "", title).strip()
+
+            video_id = item["id"]["videoId"]
+
+            if any(x in title.lower() for x in ["season", "series"]): 
+                continue
+
+            stats_response = requests.get(video_url, params={
+                "key": yt_key.api_key,
+                "id": video_id,
+                "part": "statistics"
+            }).json()
+
+            items_stats = stats_response.get("items", [])
+            if not items_stats: 
+                continue
+            s = items_stats[0].get("statistics", {})
+                                
+            trailers.append({
+                "title": title,
+                "video_id": video_id,
+                "view_count": int(s.get("viewCount", 0)), 
+                "like_count": int(s.get("likeCount", 0)),
+                "comment_count": int(s.get("commentCount", 0))
             })
-    with open(output_file, "w") as f: 
-        json.dump(articles, f, indent=4)
 
-    return articles
+    seen_vid = []
+    unique_trailers = []
 
+    for t in trailers: 
+        title = t["title"].lower()
+        base = re.split(r"\|", title)[0]
+        base = re.split(r"official", base)[0]
+        base = "".join(re.split(r"\(.*?\)", base))
+        words = re.findall(r"[a-z0-9]+", base)
+        cleaned_title = " ".join(words)
+        if cleaned_title not in seen_vid: 
+            seen_vid.append(cleaned_title)
+            unique_trailers.append(t)
+
+    with open(output_file, "w", encoding="utf-8") as f: 
+        json.dump(unique_trailers, f, indent=4)
+
+    return unique_trailers
 
 def main():
     # 1. Fetch TMDB movies
@@ -129,8 +169,8 @@ def main():
     omdb_movies = get_omdb_ratings(imdb_ids)
     print("OMDB movies collected:", len(omdb_movies))
 
-    nyt_articles = get_nyt_movie_articles()
-    print("NYT articles collected:", len(nyt_articles))
+    youtube_trailers = get_youtube_trailers()
+    print("Youtube trailers collected:", len(youtube_trailers))
 
 
 if __name__ == "__main__":
