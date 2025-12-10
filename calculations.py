@@ -77,17 +77,17 @@ def calculation_1_budget_vs_rating(conn):
     plt.ylabel("IMDb Rating")
     plt.show()
 
-    # Visualization 2: histogram showing rating distribution
-    ratings = []
+    # Visualization 2: histogram showing budget distribution
+    budgets = []
     for movie in cleaned_rows:
-        ratings.append(movie[2])  
+        budgets.append(movie[1])  
 
     # Step 2: Plot histogram
     plt.figure(figsize=(10, 6))
-    plt.hist(ratings, bins=10, color='green', edgecolor='black')
-    plt.xlabel("IMDb Rating")
+    plt.hist(budgets, bins=10, color='green', edgecolor='black')
+    plt.xlabel("Budget")
     plt.ylabel("Number of Movies")
-    plt.title("IMDb Rating Distribution of Movies")
+    plt.title("Budget Distribution of Movies")
     plt.show()
 
 
