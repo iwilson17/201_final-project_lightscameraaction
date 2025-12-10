@@ -6,16 +6,16 @@
         "budget": 220000000
     },
     {
-        "title": "Troll 2",
-        "tmdb_id": 1180831,
-        "imdb_id": "tt29232158",
-        "budget": 11200000
-    },
-    {
         "title": "Zootopia 2",
         "tmdb_id": 1084242,
         "imdb_id": "tt26443597",
         "budget": 150000000
+    },
+    {
+        "title": "Troll 2",
+        "tmdb_id": 1180831,
+        "imdb_id": "tt29232158",
+        "budget": 11200000
     },
     {
         "title": "Kantara - A Legend: Chapter 1",
@@ -60,15 +60,15 @@
         "budget": 105000000
     },
     {
-        "title": "High Forces",
-        "tmdb_id": 949709,
-        "imdb_id": "tt17501870",
-        "budget": 0
-    },
-    {
         "title": "The Shadow's Edge",
         "tmdb_id": 1419406,
         "imdb_id": "tt34610311",
+        "budget": 0
+    },
+    {
+        "title": "High Forces",
+        "tmdb_id": 949709,
+        "imdb_id": "tt17501870",
         "budget": 0
     },
     {
@@ -76,12 +76,6 @@
         "tmdb_id": 755898,
         "imdb_id": "tt13186306",
         "budget": 0
-    },
-    {
-        "title": "Altered",
-        "tmdb_id": 1309012,
-        "imdb_id": "tt32123395",
-        "budget": 15000000
     },
     {
         "title": "Frankenstein",
@@ -93,12 +87,6 @@
         "title": "Stephen",
         "tmdb_id": 1561955,
         "imdb_id": "tt38681567",
-        "budget": 0
-    },
-    {
-        "title": "The Family Plan 2",
-        "tmdb_id": 1363123,
-        "imdb_id": "tt34276058",
         "budget": 0
     },
     {
@@ -114,10 +102,22 @@
         "budget": 150000000
     },
     {
-        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-        "tmdb_id": 1311031,
-        "imdb_id": "tt32820897",
-        "budget": 20000000
+        "title": "The Family Plan 2",
+        "tmdb_id": 1363123,
+        "imdb_id": "tt34276058",
+        "budget": 0
+    },
+    {
+        "title": "Altered",
+        "tmdb_id": 1309012,
+        "imdb_id": "tt32123395",
+        "budget": 15000000
+    },
+    {
+        "title": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-",
+        "tmdb_id": 1539104,
+        "imdb_id": "tt38121182",
+        "budget": 0
     },
     {
         "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",

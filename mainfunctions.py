@@ -62,6 +62,7 @@ def get_tmdb_movies(pages=5, output_file="movie.json"):
 
 def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
 
+
     movies = []
     base_url = "http://www.omdbapi.com/"
 
@@ -71,7 +72,6 @@ def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
             "apikey": omdb_key.api_key,
             "i": imdb_id
         }
-
         detail = requests.get(base_url, params=params).json()
 
         # Store only fields we need
@@ -88,13 +88,12 @@ def get_omdb_ratings(imdb_ids, output_file="omdb_movies.json"):
 
     return movies
 
-
-def get_youtube_trailers(output_file="youtube_trailer.json"):
+def get_youtube_trailers(output_file="youtube_trailers.json"):
     trailers = []
     search_url = "https://www.googleapis.com/youtube/v3/search"
     video_url = "https://www.googleapis.com/youtube/v3/videos"
 
-    for i in range(5): 
+    for i in range(45): 
         params_search = {
             "key": yt_key.api_key,
             "q": "official trailer", 
@@ -116,8 +115,8 @@ def get_youtube_trailers(output_file="youtube_trailer.json"):
 
             video_id = item["id"]["videoId"]
 
-            if any(x in title.lower() for x in ["season", "series"]): 
-                continue
+            # if any(x in title.lower() for x in ["season"]): 
+            #     continue
 
             stats_response = requests.get(video_url, params={
                 "key": yt_key.api_key,
@@ -156,6 +155,7 @@ def get_youtube_trailers(output_file="youtube_trailer.json"):
         json.dump(unique_trailers, f, indent=4)
 
     return unique_trailers
+
 
 def main():
     # 1. Fetch TMDB movies

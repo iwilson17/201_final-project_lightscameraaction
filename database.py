@@ -76,61 +76,57 @@ def create_omdb_tables():
 
 
 
-def create_nyt_table(): 
+def create_yt_table(): 
     conn = sqlite3.connect("movies.db")
     cur = conn.cursor()
 
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS nyt_articles (
+        CREATE TABLE IF NOT EXISTS youtube_trailers (
             id INTEGER PRIMARY KEY AUTOINCREMENT, 
-            genre TEXT, 
-            headline TEXT, 
-            summary TEXT,
-            section TEXT, 
-            byline TEXT, 
-            date TEXT
+            title TEXT, 
+            video_id TEXT UNIQUE, 
+            view_count INTEGER,
+            like_count INTEGER, 
+            comment_count INTEGER
         )     
     """)
     conn.commit()
     conn.close()
 
 
-def save_articles_by_genre_to_db(articles): 
+def save_youtube_trailers_to_db(trailers): 
     conn = sqlite3.connect("movies.db")
     cur = conn.cursor()
 
     count_added = 0 
 
-    for article in articles: 
+    for t in trailers: 
+        if count_added >= 25:
+                break  
         try: 
             before = conn.total_changes
             cur.execute("""
-                INSERT OR IGNORE INTO nyt_articles 
-                (genre, headline, summary, section, byline, date)
-                VALUES (?, ?, ?, ?, ?, ?)
+                INSERT OR IGNORE INTO youtube_trailers 
+                (title, video_id, view_count, like_count, comment_count)
+                VALUES (?, ?, ?, ?, ?)
             """, (
-                article.get("genre", "N/A"),
-                article.get("headline", "No Title"), 
-                article.get("summary", "No Summary"), 
-                article.get("section", "Unknown"),
-                article.get("byline", "Unknown"),
-                article.get("pub_date", "Unknown")
+                t["title"],
+                t["video_id"],
+                t["view_count"],
+                t["like_count"],
+                t["comment_count"],
             ))
             after = conn.total_changes
 
             if after > before: 
                 count_added += 1
-            
-            if count_added >= 25:
-                break 
-
 
         except Exception as e:
-            print("Error saving NYT articles:", e)
+            print("Error saving YouTube trailers:", e)
 
     conn.commit()
     conn.close()
-    print("NYT: Added", count_added, "articles.")
+    print("YouTube: Added", count_added, "trailers.")
 
 
 # --------------------------------------------------------
@@ -175,11 +171,11 @@ def save_omdb_to_db(movies):
 
 
 def main():
-    from mainfunctions import get_tmdb_movies, get_omdb_ratings, get_nyt_movie_articles 
+    from mainfunctions import get_tmdb_movies, get_omdb_ratings, get_youtube_trailers 
 
     create_tmdb_tables()
     create_omdb_tables()
-    create_nyt_table()
+    create_yt_table()
 
     tmdb_movies = get_tmdb_movies()
     save_tmdb_to_db(tmdb_movies)
@@ -188,8 +184,8 @@ def main():
     omdb_movies = get_omdb_ratings(imdb_ids)
     save_omdb_to_db(omdb_movies)
 
-    nyt_articles = get_nyt_movie_articles()
-    save_articles_by_genre_to_db(nyt_articles)
+    youtube_trailers = get_youtube_trailers()
+    save_youtube_trailers_to_db(youtube_trailers)
 
 
     print("DONE.")
