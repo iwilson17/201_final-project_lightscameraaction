@@ -52,7 +52,6 @@ def init_db(db_name="movies.db"):
 
 # Insert helpers
 
-<<<<<<< HEAD
 def create_yt_table(): 
     conn = sqlite3.connect("movies.db")
     cur = conn.cursor()
@@ -67,15 +66,9 @@ def create_yt_table():
             comment_count INTEGER
         )     
     """)
-=======
-def insert_imdb_key(conn, imdb_id):
-    cur = conn.cursor()
-    cur.execute("INSERT OR IGNORE INTO imdb_keys (imdb_id) VALUES (?);", (imdb_id,))
->>>>>>> af7c1e4bcc6cb32f3f4016cbb205bec6ce6fe039
     conn.commit()
 
 
-<<<<<<< HEAD
 def save_youtube_trailers_to_db(trailers): 
     conn = sqlite3.connect("movies.db")
     cur = conn.cursor()
@@ -109,16 +102,6 @@ def save_youtube_trailers_to_db(trailers):
     conn.commit()
     conn.close()
     print("YouTube: Added", count_added, "trailers.")
-=======
-def insert_title(conn, title):
-    cur = conn.cursor()
-    if title:
-        title = title.strip().lower()
-    else:
-        title = "unknown title"
-    cur.execute("INSERT OR IGNORE INTO movie_titles (title) VALUES (?);", (title,))
-    conn.commit()
->>>>>>> af7c1e4bcc6cb32f3f4016cbb205bec6ce6fe039
 
     cur.execute("SELECT title_id FROM movie_titles WHERE title = ?;", (title,))
     return cur.fetchone()[0]
@@ -171,17 +154,11 @@ def insert_omdb_row(conn, movie):
 # MAIN function for database.py
 # Reads JSON files and inserts them
 def main():
-<<<<<<< HEAD
     from mainfunctions import get_tmdb_movies, get_omdb_ratings, get_youtube_trailers 
 
     create_tmdb_tables()
     create_omdb_tables()
     create_yt_table()
-=======
-    init_db()
-
-    conn = sqlite3.connect("movies.db")
->>>>>>> af7c1e4bcc6cb32f3f4016cbb205bec6ce6fe039
 
     # Load TMDB JSON
     with open("movie.json", "r") as f:
@@ -191,14 +168,8 @@ def main():
     with open("omdb_movies.json", "r") as f:
         omdb_movies = json.load(f)
 
-<<<<<<< HEAD
     youtube_trailers = get_youtube_trailers()
     save_youtube_trailers_to_db(youtube_trailers)
-=======
-    # # Limit to 25 items per execution
-    # tmdb_movies = tmdb_movies[:25]
-    # omdb_movies = omdb_movies[:25]
->>>>>>> af7c1e4bcc6cb32f3f4016cbb205bec6ce6fe039
 
     # Insert TMDB data
     for movie in tmdb_movies:
